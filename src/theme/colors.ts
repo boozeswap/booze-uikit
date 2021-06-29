@@ -2,7 +2,7 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#129e3c",
+  primary: "#031b0a",
   primaryBright: "#29aa69",
   primaryDark: "#29aa69",
   secondary: "#7645D9",
@@ -44,11 +44,11 @@ export const darkColors: Colors = {
   input: "#021015",
   primaryDark: "##0d0e0e",
   tertiary: "#021217",
-  text: "#ecd098",
+  text: "#352a13",
   textDisabled: "#666171",
-  textSubtle: "#ddd1c1",
+  textSubtle: "#5d5750",
   borderColor: "#847a35",
-  card: "#012e3ca6",
+  card: "#8ab3fdad",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
   },
