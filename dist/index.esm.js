@@ -2086,7 +2086,7 @@ var Logo$1 = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React.createElement(React.Fragment, null,
-        React.createElement(Logo, { className: "mobile-icon", isDark: isDark }),
+        React.createElement(Icon$q, { className: "mobile-icon" }),
         React.createElement(Logo, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, { alignItems: "center" },
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$L, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$K, { width: "24px", color: "textSubtle" }))),
@@ -2823,7 +2823,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#021015", input: "#021015", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#887958", borderColor: "#E9EAEB", card: "#887958", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#80a1d8ad", backgroundDisabled: "#b7b7b7", contrast: "#FFFFFF", invertedContrast: "#bfab7d", input: "#bfab7d", primaryDark: "##0d0e0e", tertiary: "#80a1d86b", text: "#352a13", textDisabled: "#666171", textSubtle: "#5d5750", borderColor: "#847a35", card: "#bacbe8ad", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#80a1d8ad", backgroundDisabled: "#b7b7b7", contrast: "#FFFFFF", invertedContrast: "#b7af9c", input: "#b7af9c", primaryDark: "##0d0e0e", tertiary: "#80a1d86b", text: "#352a13", textDisabled: "#666171", textSubtle: "#5d5750", borderColor: "#847a35", card: "#bacbe8ad", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
