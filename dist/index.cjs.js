@@ -2240,12 +2240,12 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/Handymanfi",
+        href: "https://t.me/BeerSwapDex",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/handymanfinance?s=11",
+        href: "https://twitter.com/BeerCoinT",
     },
 ];
 var MENU_HEIGHT = 74;
