@@ -41,10 +41,6 @@ const BodyWrapper = styled.div`
 
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-grow: 1;
-  background-image: url(/images/main-bg.jpg);
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-top: ${({ showMenu }) => (showMenu ? `${MENU_HEIGHT}px` : 0)};
   transition: margin-top 0.2s;
   transform: translate3d(0, 0, 0);
