@@ -2381,15 +2381,18 @@ var PanelFooter = function (_a) {
 };
 var templateObject_1$D, templateObject_2$c, templateObject_3$7, templateObject_4$2;
 
-var StyledPanel = styled.div(templateObject_1$E || (templateObject_1$E = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"])), function (_a) {
+var StyledPanel = styled.div(templateObject_1$E || (templateObject_1$E = __makeTemplateObject(["\n  position: fixed;\n  margin-top: ", ";\n  pading-top: 10px;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: ", ";\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"], ["\n  position: fixed;\n  margin-top: ", ";\n  pading-top: 10px;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: ", ";\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"])), function (_a) {
     var showMenu = _a.showMenu;
-    return (showMenu ? "80px" : 0);
+    return (showMenu ? MENU_HEIGHT + "px" : 0);
 }, function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
 }, function (_a) {
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL + "px" : 0);
+}, function (_a) {
+    var showMenu = _a.showMenu;
+    return (showMenu ? "calc(100vh - " + MENU_HEIGHT + "px)" : "100vh");
 }, function (_a) {
     var isPushed = _a.isPushed;
     return (isPushed ? "2px solid rgba(133, 133, 133, 0.1)" : 0);
